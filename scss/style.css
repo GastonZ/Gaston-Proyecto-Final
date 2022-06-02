@@ -1,0 +1,87 @@
+#logo {
+  border-radius: 50%;
+  color: #362b2b;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+#banner_gym {
+  background-image: url(../imagenes/dragoncover.webp);
+  background-position: top;
+  background-size: cover;
+  min-height: 400px;
+}
+
+#cajas1 {
+  height: 500px;
+  width: 250px;
+  color: #362b2b;
+  background-image: url(../imagenes/bakientrenando.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 12rem;
+  font-size: 30px;
+  border-radius: 20px;
+  border: solid #000;
+}
+
+.cajas {
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+}
+
+.cajas:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+@media screen and (max-width: 900px) {
+  .cajas {
+    -webkit-transition: -webkit-transform;
+    transition: -webkit-transform;
+    transition: transform;
+    transition: transform, -webkit-transform;
+    -webkit-transition-duration: 600ms;
+            transition-duration: 600ms;
+  }
+  .cajas:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+#cajas2 {
+  height: 500px;
+  width: 250px;
+  color: #362b2b;
+  background-image: url(../imagenes/bakicomiendo.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 12rem;
+  font-size: 30px;
+  border-radius: 20px;
+  border: solid #000;
+}
+
+#cajas3 {
+  height: 500px;
+  width: 250px;
+  color: #362b2b;
+  background-image: url(../imagenes/bakifacha.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 12rem;
+  font-size: 30px;
+  border-radius: 20px;
+  border: solid #000;
+}
+/*# sourceMappingURL=style.css.map */
