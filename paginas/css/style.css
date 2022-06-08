@@ -5,19 +5,13 @@ body{
     border-radius: 50%;
 }
 
-#entrenamiento1 {
-    height: 400px;
-    
-}
-
-
 
 #entrenamiento2 {
     height: 400px;
-    
+    align-items: center;
 }
 
 #entrenamiento3 {
     height: 400px;
-    
+    align-items: center;
 }
